@@ -65,8 +65,8 @@ li{
 
   html, body, div, span, canvas { margin:0; padding:0; }
   #container {
-   
-    position:absolute;
+    overflow:hidden;
+    position:absolute; /*was relative */
     height: 100%;
     width: 100%;
     z-index:0;
