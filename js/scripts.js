@@ -8,13 +8,13 @@ var rint = 50;
 var rint2 = 50;
 
 $(document).ready(function(){
-  WIDTH = window.innerWidth;
-  HEIGHT = window.innerHeight;
+  WIDTH = window.outerWidth;
+  HEIGHT = document.documentElement.scrollHeight;
 	$('#container').width(WIDTH).height(HEIGHT);
 	canvas = document.getElementById('pixie');
 	$(canvas).attr('width', WIDTH).attr('height',HEIGHT);
 	con = canvas.getContext('2d');
-	for(var i = 0; i < 50; i++) {
+	for(var i = 0; i < 150; i++) {
 		pxs[i] = new Circle();
 		pxs[i].reset();
 	}
