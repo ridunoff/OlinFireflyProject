@@ -111,4 +111,7 @@ li{
     #firefly{
       display:none;
     }
+    .content{
+      max-width:400px
+    }
   }
