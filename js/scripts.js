@@ -9,7 +9,7 @@ var rint2 = 50;
 
 $(document).ready(function(){
   WIDTH = window.outerWidth*1.25;
-  HEIGHT = document.documentElement.scrollHeight*1.25;
+  HEIGHT = document.documentElement.scrollHeight*1.75;
 	$('#container').width(WIDTH).height(HEIGHT);
 	canvas = document.getElementById('pixie');
 	$(canvas).attr('width', WIDTH).attr('height',HEIGHT);
